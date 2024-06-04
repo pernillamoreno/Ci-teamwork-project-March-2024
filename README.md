@@ -1,6 +1,6 @@
 # Ci-teamwork-project
 
-In this teamwork project you are supposed to develop python scripts to automatically generate a maintainable C++ module to get and set signal values based on a structured signals in data.json accroding to the requirements below:
+In the MAIN BRANCH : In this teamwork project you are supposed to develop python scripts to automatically generate a maintainable C++ module to get and set signal values based on a structured signals in data.json accroding to the requirements below:
 
     Make a private repository for the project and invite your teammates as collaborators
     Follow the Scrum framework and Github Project to organize the project
