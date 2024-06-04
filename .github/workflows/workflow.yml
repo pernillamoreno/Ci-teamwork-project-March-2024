@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches-ignore:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Install build-essential 
+      run: | 
+            sudo apt-get install build-essential cmake
+    - name: Build & Run
+      run: |
+            mkdir build && cd build && cmake ..
+            make generate && cmake ..
+            make test
+            ./test

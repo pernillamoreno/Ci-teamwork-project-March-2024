@@ -1,0 +1,5 @@
+test
+build
+.vscode
+lib/signals
+__pycache__
